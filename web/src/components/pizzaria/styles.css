@@ -1,0 +1,52 @@
+.pizzaria{
+    list-style: none;
+    padding: 0px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-bottom: 4px;    
+}
+
+.pizzaria{
+    width: 80px;
+    border-radius: 5px;
+    vertical-align: baseline;
+    
+}
+
+.pizzaria{
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.pizzaria-infos span {
+    vertical-align: middle;
+    color:black;
+    letter-spacing: 2px;
+    
+}
+
+.pizzaria-infos span.mid-star{
+    color: yellow;
+    
+}
+
+.pizzaria-infos text {
+    font-size: 12px;
+    margin-right: 0px;
+    vertical-align:middle;
+    color:black;
+    
+   
+}
+
+.img-fluid{
+    position:static;
+    left: 50%;
+    top: 50%;
+
+    
+}
+
+h2{
+    letter-spacing: 0px;
+}

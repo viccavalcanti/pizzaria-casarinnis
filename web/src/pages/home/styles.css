@@ -1,0 +1,28 @@
+.pizzaria-list-container{
+    height: 300px;
+    position: absolute;
+    margin-bottom: 0;
+    top: 91px;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180 deg,#ffffff 55.47%, rgba(255, 755, 255, 0) 100%);
+}
+
+
+
+.pizzaria-list{
+    padding: 10px;
+    white-space:pre-wrap;
+    overflow-x:auto;
+    width: 100%;
+    margin-top:  20px; 
+    left: 25px;
+}
+
+h5{
+    right: 20px;
+    text-align:left;
+    letter-spacing: 2px;
+}
+
