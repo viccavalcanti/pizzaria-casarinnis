@@ -12,7 +12,7 @@ const Product = () => {
         </div>
         <div className="col-6">
         <h6>
-            <label className="badge badge-primary">R$ 80,00</label>
+            <label className="badge badge-primary">R$ 30,00</label>
           </h6>
           <small>
             <b class="texto">

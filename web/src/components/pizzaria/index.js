@@ -15,7 +15,7 @@ return (
               <span className="mdi mdi-star"></span>
                     
               <text>
-                <b class="texto">2,8</b>
+                <b class="texto">4,8</b>
               </text>
               <span className="mdi mdi-cash-usd-outline"></span>
               <text class="texto">$$$</text>

@@ -1,9 +1,9 @@
 import "./styles.css";
 
-const Product = () => {
+const Product = (props) => {
   return (
     <div className="product col-3">
-      <img src="https://parkofideas.com/foodz/demo2/wp-content/uploads/2019/03/demo1-0901996381-1-238x238.jpg"></img>
+      <img src={props.img}/>
       <button className="btn btn-secondary rounded-circle">+</button>
       <h4>
         <label className="badge badge-secondary">R$ 25,99</label>
@@ -17,5 +17,6 @@ const Product = () => {
     </div>
   );
 };
+
 
 export default Product;

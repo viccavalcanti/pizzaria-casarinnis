@@ -11,7 +11,7 @@ import Home from './pages/home';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Cadastro/>
+      <Pizzaria/>
   </React.StrictMode>,
   document.getElementById('root')
 );

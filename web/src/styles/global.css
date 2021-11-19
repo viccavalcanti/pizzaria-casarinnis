@@ -56,6 +56,10 @@ input[type='date'] :disabled{
     background-color: rgb(var(--secondary))!important;
 }
 
+.bg-red{
+    background-color:#EC323B;
+}
+
 .bg-primary{
     background-color: rgb(var(--primary))!important;
 }
@@ -79,7 +83,7 @@ input[type='date'] :disabled{
 .btn-secondary:active,
 .btn-secondary:disabled,
 .btn-secondary:hover{
-    background-color: rgb(var(--primary))!important;
+    background-color: #228B22!important;
     border-color: rgb(var(--secondary));
 }
 

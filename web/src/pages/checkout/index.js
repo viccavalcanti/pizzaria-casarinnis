@@ -132,7 +132,7 @@ const Checkout = () => {
                         <div className="row mt-4">
                             <div className="col-12 d-flex justify-content-between align-itens-center">
                             <b class="texto">Total</b>
-                            <h3 class="texto">R$ 30,00</h3>
+                            <h3 class="texto">R$ 120,00</h3>
                             </div>
                             <div className="col-12">
                             <button className="w-100 btn btn-block btn-lg btn-secondary">
@@ -144,10 +144,10 @@ const Checkout = () => {
                     </div>
                     <div className="col-6">
                         <div className="box col-10 mt-4 mb-4 box-sidebar">
-                        <h4 class="texto">Minha sacola (5)</h4>
+                        <h4 class="texto">Minha sacola (4)</h4>
 
                             <div className="row products">
-                                {[1,2,3,4,5,6,7,8,9].map((p) =>(
+                                {[1,2,3,4,].map((p) =>(
                                     <Product />
                                 ))}
                             

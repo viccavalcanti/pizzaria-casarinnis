@@ -22,9 +22,8 @@
 }
 
 .product button{
-    position: absolute;
-    right:30px ;
     font-size: 25px;
-    margin-top: 155px;
     padding:1px 12px ;
 }
+
+
