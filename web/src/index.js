@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import './styles/global.css';
-
-import Sidebar from './components/sidebar';
-import Cadastro from './pages/cadastro';
-import Checkout from './pages/checkout';
-import Pizzaria from './pages/pizzaria';
-import Home from './pages/home';
+import MainRoutes from './routes';
+import { Provider } from "react-redux";
+import store from './store';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-      <Pizzaria/>
-  </React.StrictMode>,
+  <Provider store={store}>
+    <Router>
+      <MainRoutes />
+    </Router>
+  </Provider>
+  ,
   document.getElementById('root')
 );
 
