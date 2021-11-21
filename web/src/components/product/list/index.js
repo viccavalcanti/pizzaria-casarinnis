@@ -11,16 +11,16 @@ const Product = () => {
           ></img>
         </div>
         <div className="col-6">
-        <h6>
+          <h6>
             <label className="badge badge-primary">R$ 30,00</label>
           </h6>
           <small>
-            <b class="texto">
+            <b className="texto">
               Pizza The Pig Peper----Molho de Tomate · Mozzarella · Pepperoni
               Duplo
             </b>
           </small>
-          </div>
+        </div>
         <div className="col-3">
           <button className="btn btn-secondary rounded-circle">-</button>
         </div>

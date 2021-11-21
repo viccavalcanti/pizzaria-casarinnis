@@ -17,7 +17,7 @@ input[type='text'],
 input[type='email'],
 input[type='password'],
 input[type='date'] {
-        font-size: 15px;
+    font-size: 15px;
 }
 
 input[type='text'],
@@ -68,8 +68,6 @@ input[type='date'] :disabled{
     background-color: rgb(var(--secondary))!important;
 }
 
-
-
 .btn-primary,
 .btn-primary:focus,
 .btn-primary:active,
@@ -78,6 +76,7 @@ input[type='date'] :disabled{
     background-color: rgb(var(--primary))!important;
     border-color: rgb(var(--secondary));
 }
+
 .btn-secondary,
 .btn-secondary:focus,
 .btn-secondary:active,

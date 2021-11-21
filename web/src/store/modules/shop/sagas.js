@@ -12,6 +12,7 @@ export function* requestPizzarias() {
 
 export function* requestPizzaria(payload) {
   const response = yield call(api.get, `/pizzarias/${payload.id}`);
+  console.log('res', response);
   const { pizzaria } = response.data;
   yield put(setPizzaria(pizzaria));
 }

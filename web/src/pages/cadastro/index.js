@@ -1,10 +1,11 @@
 import Header from "../../components/header";
 import ilustracao from "../../assets/ilustracao1.png";
 import "../../styles/global.css";
+
 const Cadastro = () => {
   return (
     <div className="container-fluid h-100 bg-red">
-      <Header hideCart/>
+      <Header hideCart />
       <div className="row">
         <div className="col-6  text-right my-auto">
           <img src={ilustracao} className="img-fluid" />
